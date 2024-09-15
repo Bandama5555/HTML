@@ -1,0 +1,47 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore backup files
+*.bak
+*.tmp
+*.swp
+*~
+
+# Ignore log files and other temporary files
+*.log
+*.lock
+
+# Ignore node_modules/ if using any npm packages (for HTML projects with dependencies)
+node_modules/
+
+# Ignore build directory if using a static site generator or a build process
+/dist/
+/build/
+
+# Ignore package manager files if using npm or yarn
+package-lock.json
+yarn.lock
+
+# Ignore environment variables files
+.env
+.env.local
+
+# Ignore coverage reports if using testing tools
+/coverage/
+
+# Ignore Sass or CSS cache files
+.sass-cache/
+*.scssc
+
+# Ignore IDE project files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore generated assets (e.g., minified CSS/JS files)
+*.min.css
+*.min.js
+
+# Ignore any compiled files if applicable
+*.map
